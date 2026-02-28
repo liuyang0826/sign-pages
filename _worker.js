@@ -7,7 +7,7 @@ export default {
 
     const newRequest = new Request(target, request)
 
-    // return fetch(newRequest)
-    return new Response('Hello World!')
+    return fetch(newRequest)
+    // return new Response('Hello World!')
   }
 }
