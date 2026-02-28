@@ -8,6 +8,6 @@ export default {
     const newRequest = new Request(target, request)
 
     // return fetch(newRequest)
-    return "hello world"
+    return new Response('Hello World!')
   }
 }
